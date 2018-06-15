@@ -1,6 +1,30 @@
 {
- "messages": [
-   {"text": "Welcome to the Chatfuel Rockets!"},
-   {"text": "What are you up to?"}
- ]
+  "messages": [
+    {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Hello!",
+          "buttons": [
+            {
+              "type": "show_block",
+              "block_names": ["name of block"],
+              "title": "Show Block"
+            },
+            {
+              "type": "web_url",
+              "url": "https://rockets.chatfuel.com",
+              "title": "Visit Website"
+            },
+            {
+              "url": "https://rockets.chatfuel.com/api/welcome",
+              "type":"json_plugin_url",
+              "title":"Postback"
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
