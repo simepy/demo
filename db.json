@@ -1,6 +1,6 @@
 {
  "messages": [
-   {"text": "Salut {{first name}}! tu vient de voir le Docteur véto, pour {{name_animal}}"},
+   {"text": "Salut {{first name}}! tu vient de voir le Docteur véto pour {{name_animal}}"},
    {"text": "Veux tu plus d'information ?"}
  ]
 }
