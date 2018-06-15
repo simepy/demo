@@ -1,6 +1,6 @@
 {
  "messages": [
-   {"text": "Welcome to the Chatfuel Rockets!"},
+   {"text": "Salut {{first name}}! tu vient de voir le Docteur véto, pour {{name_animal}}, veux tu plus d'information ?"},
    {"text": "What are you up to?"}
  ]
 }
